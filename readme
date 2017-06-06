@@ -2,6 +2,10 @@
 
 安转python2.7
 
+yum install python-devel.x86_64
+yum install tkinter
+yum install tk-devel.x86_64
+
 安装可能的依赖工具
 yum -y install blas blas-devel lapack-devel lapack
 yum -y install seaborn scipy
@@ -19,3 +23,4 @@ pip install matplotlib -i http://pypi.douban.com/simple --trusted-host pypi.doub
 pip install numpy -i http://pypi.douban.com/simple --trusted-host pypi.douban.com
 pip install pandas -i http://pypi.douban.com/simple --trusted-host pypi.douban.com
 pip install seaborn scipy  -i http://pypi.douban.com/simple --trusted-host pypi.douban.com
+pip install sklearn  -i http://pypi.douban.com/simple --trusted-host pypi.douban.com
