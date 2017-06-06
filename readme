@@ -1,0 +1,21 @@
+
+
+安转python2.7
+
+安装可能的依赖工具
+yum -y install blas blas-devel lapack-devel lapack
+yum -y install seaborn scipy
+yum -y install freetype freetype-devel libpng libpng-devel
+yum -y install python-pip
+yum -y install pytz
+yum -y install python-dateutil
+
+
+python -m pip install --upgrade pip
+pip install --user numpy scipy matplotlib jupyter pandas sympy nose
+
+使用豆瓣源安装工具包
+pip install matplotlib -i http://pypi.douban.com/simple --trusted-host pypi.douban.com
+pip install numpy -i http://pypi.douban.com/simple --trusted-host pypi.douban.com
+pip install pandas -i http://pypi.douban.com/simple --trusted-host pypi.douban.com
+pip install seaborn scipy  -i http://pypi.douban.com/simple --trusted-host pypi.douban.com
